@@ -1,0 +1,25 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #747704;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.logo-space {
+    margin-top: 20px;
+}
+
+.text-space {
+    font-size: 68px;
+}
+
+.top-buffer {
+    margin-top:20px;
+}

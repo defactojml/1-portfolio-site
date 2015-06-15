@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>JML Portofilio Site</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.css">
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 logo-space"><img src="images/logo.png " width="100" height="100" class="img-responsive"
+                                              alt="Defact-o logo"></div>
+        <div class="col-md-6 text-right text-uppercase text-thin text-muted text-space">
+            <h1>Jean-Michel Legrand</h1>
+            <h4>Front-end Engineer</h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <hr/>
+        </div>
+    </div>
+
+    <!--div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="http://placehold.it/1200x350" alt="Main image">
+        </div>
+    </div-->
+
+    <div class="row col-md-12">
+        <img class="img-responsive" src="http://placehold.it/1200x350" alt="Main image">
+    </div>
+
+    <div class="row col-md-12">
+        <h2>Upcoming projects</h2>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/jobscan-logo-550x300.png" alt="resume" data-toggle="modal"
+                 data-target="#resume">
+
+            <h3 class="text-uppercase">
+                <a href="http://github.com/udacity/resume">Resume</a>
+            </h3>
+            <h5>Aug. 10th, 15</h5>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/mario-kart-8-550x300.jpg" alt="arcade" data-toggle="modal"
+                 data-target="#arcade">
+
+            <h3 class="text-uppercase">
+                <a href="http://github.com/udacity/arcade">Arcade Game</a>
+            </h3>
+            <h5>Sep. 21th, 15</h5>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive"
+                 src="images/google-optimization-550x300.jpg"
+                 alt="optimization" data-toggle="modal" data-target="#optimization">
+
+            <h3 class="text-uppercase">
+                <a href="http://github.com/udacity/optimization">Website Optimization</a>
+            </h3>
+            <h5>Nov. 09th, 15</h5>
+        </div>
+    </div>
+
+    <div class="row text-center top-buffer">
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/red-hook-map-72dpi-550x300.jpg" alt="neighborhood"
+                 data-toggle="modal" data-target="#neighborhood">
+
+            <h3 class="text-uppercase">
+                <a href="http://github.com/udacity/neighborhood">Neighborhood Map</a>
+            </h3>
+            <h5>Dec. 28th, 15</h5>
+        </div>
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="images/feed-550x300.png" alt="feed" data-toggle="modal"
+                 data-target="#feed">
+
+            <h3 class="text-uppercase">
+                <a href="http://github.com/udacity/feed">Feed Reader Testing Map</a>
+            </h3>
+            <h5>Jan. 11th, 16</h5>
+        </div>
+    </div>
+
+    <!-- Modal for resume -->
+    <div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="resumeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="resumeLabel">Resume Project Detail</h4>
+                </div>
+                <div class="modal-body">
+                    <span> While doing this project, I will learn basic JavaScript syntax, which includes </span>
+                    <ul>
+                        <li>Manipulating data types (like JSON),</li>
+                        <li>Building loops and</li>
+                        <li>Creating functions.</li>
+                    </ul>
+                    <span>
+                        At the same time, I’ll learn some simple jQuery DOM manipulation methods
+                        to build my resume the moment a user opens my website.
+                    </span>
+                    <h5>Prerequisites: </h5>
+                    <ul>
+                        <li>JavaScript Basics</li>
+                        <li>Intro to jQuery</li>
+                    </ul>
+                    <h5>Deadline: Aug. 10th, 15</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="arcade" tabindex="-1" role="dialog" aria-labelledby="arcadeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="arcadeLabel">Arcade Game Project Detail</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        While doing this project, I will learn object oriented programming features to write eloquently
+                        designed classes capable of creating countless instances of similarly functioning objects. <br/>
+                        I will discover a variety of ways inheritance and delegation can be used to create well
+                        architected and performant applications.
+                    </p>
+                    <h5>Prerequisites: </h5>
+                    <ul>
+                        <li>Object-Oriented JavaScript</li>
+                        <li>HTML5 Canvas</li>
+                    </ul>
+                    <h5>Deadline: Sep. 21th, 15</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="optimization" tabindex="-1" role="dialog" aria-labelledby="optimizationLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="optimizationLabel">Website Optimization Project Detail</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        While doing this project, I will learn about the critical rendering path, the process by which
+                        the browser receives HTML, CSS and JavaScript and the required processing to turn them into
+                        rendered pixels. <br/>
+                        You’ll also start to think of your work as a continuously running web application that requires
+                        a consistent
+                        framerate to produce the most enjoyable user experience.
+                    </p>
+                    <h5>Prerequisites: </h5>
+                    <ul>
+                        <li>Website Performance Optimization</li>
+                        <li>Browser Rendering Optimization</li>
+                    </ul>
+                    <h5>Deadline: Nov. 09th, 15</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="neighborhood" tabindex="-1" role="dialog" aria-labelledby="neighborhoodLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="neighborhoodLabel">Neighborhood Map Project Detail</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        While doing this project, I will learn how design patterns assist in developing a manageable
+                        codebase.<br/>
+                        I’ll then explore how frameworks can decrease the time required developing an application and
+                        provide
+                        a number of utilities for you to use. <br/>
+                        Finally, I’ll implement third-party APIs that provide valuable data sets that can improve the
+                        quality of your
+                        application.
+                    </p>
+                    <h5>Prerequisites: </h5>
+                    <ul>
+                        <li>Intro to AJAX</li>
+                        <li>JavaScript Design Patterns</li>
+                    </ul>
+                    <h5>Deadline: Dec. 28th, 15</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="feed" tabindex="-1" role="dialog" aria-labelledby="feedLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="feedLabel">Feed Reader Testing Project Detail</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        While doing this project, I will learn how design patterns assist in developing a manageable
+                        codebase.<br/>
+                        I’ll then explore how frameworks can decrease the time required developing an application and
+                        provide
+                        a number of utilities for you to use. <br/>
+                        Finally, I’ll implement third-party APIs that provide valuable data sets that can improve the
+                        quality of your
+                        application.
+                    </p>
+                    <h5>Prerequisites: </h5>
+                    <ul>
+                        <li>Intro to AJAX</li>
+                        <li>JavaScript Design Patterns</li>
+                    </ul>
+                    <h5>Deadline: Jan. 11th, 16</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
