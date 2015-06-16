@@ -16,3 +16,4 @@ Good practice for long markup file: any option to split the file in includes
 ### others (specific questions)
 - why the style of the a element got overwrittten by scafolding.less
 - how to indicate the user that, on a click of any img, a modal will popup
+- is it legal to nest img within h3 element

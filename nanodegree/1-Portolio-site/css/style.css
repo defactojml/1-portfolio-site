@@ -23,3 +23,40 @@ body {
 .top-buffer {
     margin-top:20px;
 }
+
+
+img {
+    cursor: pointer;
+}
+
+/* ----- BUTTON ----- */
+
+a.details, a.details:visited {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #D2DADC;
+    color: #11323d;
+    border: 1px solid #D2DADC;
+    border-radius: 50%;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -68px;
+    opacity: 0.4;
+    outline: 0;
+}
+
+a.details:hover, a.details:active {
+    text-decoration: none;
+    background-color: #11323d;
+    color: #D2DADC;
+    border: 1px solid #11323d;
+    opacity: 1;
+}
+
+.fa-4x {
+    padding-top: 3px;
+}
