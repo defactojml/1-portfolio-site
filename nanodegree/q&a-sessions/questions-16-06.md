@@ -1,11 +1,11 @@
 
-# Questions from June 16th session
+# Q & A from June 16th session
 
 
-### gihub and lib
-Regarding publishing to github, lib used in the project have been pushed (see bower_components)
-
+### gihub and lib management
+Regarding publishing projects to github, lib used in the project have been pushed (see bower_components)
 This does not seem to be a good practice
+
 
 ### bootstrap
 Nested div with the grid system (see markup for detail)
