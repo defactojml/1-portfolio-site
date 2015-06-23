@@ -12,7 +12,7 @@ I have **not** been successfull remote debuging a localhost page on port 63342 (
 **Any idea on how to solve the problem in this context?**
 
 
-### Remote debugging iphone 5 - safari on mac (using safari’s web inspector)
+### Remote debugging iphone  5 - safari on mac (using safari’s web inspector)
 I have been successfull remote debuging a "public" page (for which the url was entered in the iphone). [See this article - ios section](http://www.smashingmagazine.com/2014/09/03/testing-mobile-emulators-simulators-remote-debugging/2/)
 
 ![iphone-safari.png]
