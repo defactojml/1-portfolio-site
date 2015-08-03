@@ -1,15 +1,7 @@
 
 # Q & A - Testing on Mobile devices (June 23rd session)
 
-Context: trying to do remote debugging on the portfolio site (only available on localhost) for both iPhone & Samsung devices
-
-
-### Remote debugging samsung s5 - chrome on mac
-I have been successfull remote debuging a localhost page on port 8080 (hosted on apache)
-
-I have **not** been successfull remote debuging a localhost page on port 63342 (default port used by webstorm) 
-
-**Any idea on how to solve the problem in this context?**
+Context: trying to remote debug the portfolio site (only available on localhost) for both iPhone & Samsung devices
 
 
 ### Remote debugging iphone  5 - safari on mac (using safari’s web inspector)
@@ -63,3 +55,15 @@ Then
     
     
 **Any idea on how to solve the problem in this context?**
+
+
+
+## Remote debugging samsung s5 - chrome on mac
+I have been successfull remote debuging a localhost page on port 8080 (hosted on apache)
+[Ref] (https://developer.chrome.com/devtools/docs/remote-debugging)
+
+I have **not** been successfull remote debuging a localhost page on port 63342 (default port used by webstorm) 
+
+**Any idea on how to solve the problem in this context?**
+
+susan-coach@udacity.com
