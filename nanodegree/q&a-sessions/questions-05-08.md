@@ -20,6 +20,8 @@ what would be a clean approach to avoid such failure
 
 ### CSS related 
 - Can't figure out why skills are not properly fetched 
+- flexitem vs bootstrap model: pros & cons?
+- the best (inital) approach to implement scrolling?
  
 ### Organisation related 
 Have been away few days. Despite making the deadline for the Portfolio, did not have the time to 
