@@ -21,5 +21,17 @@ I have automated the project with grunt performing the following
 Which one should be the one to invest time on?
 
 
-Question projet 
+## git 
+How to recover ffrom this sistuation 
+
+- Have done a fork (get copy into X)
+- git clone to have on my local workspace
+- try commit & push from websorm lead to this error 
+
+
+
+Push partially failed
+udacity: pushed 1 commit to origin/master nanodegree/4-perf-mobile-portfolio: failed with error: fatal: unable to access 'https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git/': The requested URL returned error: 403
+
+## Question projet 
 how come it takes the same time Localhost & RCI when local host are not minified and on RCI there are 
